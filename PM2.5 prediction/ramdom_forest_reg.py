@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sb
 
-#Importing daraset
+#Importing dataset
 df=pd.read_csv('Data/Real-Data/Real_combine.csv')
 
 #cgecking for null values
