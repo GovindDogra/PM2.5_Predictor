@@ -75,8 +75,6 @@ sb.distplot(y_test-pred)
 
 #regression evaluation metrics
 import sklearn.metrics as mt
-print('MAE:',mt.mean_absolute_error(y_test,pred))
-print('MSE:',mt.mean_squared_error(y_test,pred))
 print('RMSE:',np.sqrt(mt.mean_absolute_error(y_test,pred)))
 
 import pickle
